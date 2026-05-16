@@ -22,8 +22,8 @@ module.exports = {
 	cookieSecret: "CodingWithSudhan is epic", //- Cookie Secret
 	website: "http://localhost:4200", //- without the / at the end
 	deployCommands: {
-		global: true, // Deploy to all guilds (takes up to 1 hour to propagate)
-		guildId: "", // Also deploy to specific guild for instant testing (leave empty to skip)
+		global: process.env.DEPLOY_GLOBAL === "true" || true, // Deploy to all guilds (takes up to 1 hour to propagate)
+		guildId: process.env.DEPLOY_GUILD_ID || "1254738644711903303", // Also deploy to specific guild for instant testing (leave empty to skip)
 	},
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
