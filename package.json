@@ -39,9 +39,7 @@
   },
   "homepage": "https://github.com/SudhanPlayz/Discord-MusicBot#readme",
   "overrides": {
-    "cheerio": {
-      "undici": "^6.0.0"
-    }
+    "undici": "^5.28.0"
   },
   "dependencies": {
     "@discordjs/builders": "^1.4.0",
