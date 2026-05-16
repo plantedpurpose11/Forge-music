@@ -21,7 +21,10 @@ module.exports = {
 	debug: false, //- Debug mode
 	cookieSecret: "CodingWithSudhan is epic", //- Cookie Secret
 	website: "http://localhost:4200", //- without the / at the end
-	// You need a lavalink server for this bot to work!!!!
+	deployCommands: {
+		global: true, // Deploy to all guilds (takes up to 1 hour to propagate)
+		guildId: "", // Also deploy to specific guild for instant testing (leave empty to skip)
+	},
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
 		{
