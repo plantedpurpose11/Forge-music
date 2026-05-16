@@ -38,6 +38,11 @@
     "url": "https://github.com/SudhanPlayz/Discord-MusicBot/issues"
   },
   "homepage": "https://github.com/SudhanPlayz/Discord-MusicBot#readme",
+  "overrides": {
+    "cheerio": {
+      "undici": "^6.0.0"
+    }
+  },
   "dependencies": {
     "@discordjs/builders": "^1.4.0",
     "@discordjs/rest": "^1.5.0",
