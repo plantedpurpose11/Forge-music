@@ -28,10 +28,10 @@ module.exports = {
 	// Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
 	nodes: [
 		{
-			identifier: "Free Node", 
-			host: "89.106.84.59", 
-			port: 4000, 
-			password: "heavencloud.in", 
+			identifier: "us-node-2", 
+			host: "us-node-2.altvr.in", 
+			port: 2088, 
+			password: "youshallnotpass", 
 			retryAmount: 200, 
 			retryDelay: 40, 
 			secure: false, 
